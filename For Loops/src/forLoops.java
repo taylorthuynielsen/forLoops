@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class forLoops {
 
 	public static void main(String[] args) 
@@ -6,7 +8,8 @@ public class forLoops {
 		//challengeTwo();
 		//challengeThree();
 		//challengeFour();
-		challengeFive();
+		//challengeFive();
+		challengeSix();
 
 	}
 	
@@ -50,6 +53,16 @@ public class forLoops {
 			System.out.println(i);
 		}
 	
+	}
+	
+	public static void challengeSix()
+	{
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Choose a number to be your lowerbound.");
+		int lowerbound = userInput.nextInt();
+		System.out.println("Choose a number to ber you upperbound.");
+		
+		
 	}
 
 }
