@@ -62,7 +62,7 @@ public class forLoops {
 		int lowerbound = userInput.nextInt();
 		System.out.println("Choose a number to ber you upperbound.");
 		int upperbound = userInput.nextInt();	
-		System.out.println(lowerbound + upperbound);
+			
 	}
 
 }
